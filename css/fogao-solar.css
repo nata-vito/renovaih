@@ -26,13 +26,14 @@ html, body{
 
 .img-sidebar{
     text-align: center;
-    margin-top:50%;
+    margin-top:100%;
 }
 
 .img-sidebar img{
     width: 80%;
     border: 8px solid #a545fd;
     border-radius: 50%;
+    background-color: rgb(255, 255, 255);
 }
 
 .menu{
@@ -69,6 +70,7 @@ section.descricao{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    /* background-color: black; */
 }
 
 section.descricao h2{
@@ -92,4 +94,9 @@ section.descricao p{
     color:  #6c757d;
     font-size: 18px;
     margin-top: 40px;
+}
+
+.next-icon{ 
+    margin-top: 300%;
+    color: rgb(0, 66, 247);
 }
